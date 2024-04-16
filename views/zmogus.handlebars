@@ -1,0 +1,12 @@
+<h1>Informacija apie zmogu:</h1>
+
+<form action="/zmogus" method="post">
+    {{#if zmogus}}
+    <input type="hidden" name="id" value="{{zmogus.id}}">
+    {{/if}}
+    Vardas: <input type="text" name="vardas" {{#if zmogus}}value="{{zmogus.vardas}}"{{/if}}><br>
+    Pavarde: <input type="text" name="pavarde" {{#if zmogus}}value="{{zmogus.pavarde}}"{{/if}}><br>
+    Alga: <input type="text" name="alga" {{#if zmogus}}value="{{zmogus.alga}}"{{/if}}><br>
+    <input type="submit" value="Save"><br>
+</form>
+<a href="/">Back</a>

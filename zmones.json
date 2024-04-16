@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "vardas": "Jonas",
+    "pavarde": "Jonaitis",
+    "alga": 123.48
+  },
+  {
+    "id": 2,
+    "vardas": "Petras!",
+    "pavarde": "Petraitis!",
+    "alga": 123.49
+  },
+  {
+    "id": 3,
+    "vardas": "Antanas",
+    "pavarde": "Antanaitis",
+    "alga": 123.48
+  },
+  {
+    "id": 4,
+    "vardas": "Vardenis! labas",
+    "pavarde": "Pavardenis!",
+    "alga": 1000009
+  },
+  {
+    "id": 5,
+    "vardas": "Anupras",
+    "pavarde": "asasa!!!!",
+    "alga": 12115
+  }
+]
